@@ -1,0 +1,34 @@
+.illustrations p {
+  font-size: 26px;
+  padding: 2rem 0;
+}
+
+.illustration-container {
+  margin: 4rem 0;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.illustration {
+  margin: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 54, 58, 0.4);
+  border-radius: 2px;
+}
+
+
+/* Media Query */
+
+@media (max-width: 768px) {
+  .illustration {
+    width: 16rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .illustration {
+    width: 14rem;
+  }
+}

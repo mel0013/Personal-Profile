@@ -1,0 +1,24 @@
+footer {
+  background-color: #fff1f4;
+  padding: .5rem;
+  text-align: center;
+  margin: 2rem 0 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer .pink-text:hover {
+  color: #40B2B2;
+  font-weight: bold;
+}
+
+.scroll-up-btn {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+.up-arrow {
+  width: 3rem;
+  height: 3rem;
+}

@@ -1,0 +1,93 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Custom design below! */
+@import url('components/navbar.css');
+@import url('components/hero.css');
+@import url('components/about.css');
+@import url('components/project.css');
+@import url('components/illustrations.css');
+@import url('components/footer.css');
+@import url('components/contact.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: #7d7d7d;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pink-text {
+  color: #FF5678;
+}
+
+.pink-title {
+  color: #FF5678;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  margin: 2rem;
+}
+
+.teal-text {
+  color: #40B2B2;
+}
+
+.teal-button {
+  color: #fff;
+  background-color: #40B2B2;
+  padding: 16px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border-radius: 2px;
+}
+.teal-button:hover {
+  background-color: #06a0a0;
+}
+
+/* Animation */
+
+.bouncy {
+  animation: bouncy 3.5s infinite linear;
+  position: relative;
+}
+
+@keyframes bouncy {
+  0% {top: 0em}
+  40% {top: 0em}
+  43% {top: -0.9em}
+  46% {top: 0em}
+  48% {top: -0.4em}
+  50% {top: 0em}
+  100% {top: 0em;}
+}
+
+
+/* Media queries  */
+
+@media (max-width: 1440px) {
+  .pink-title {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 400px) {
+  .pink-title {
+    font-size: 3rem;
+  }
+}

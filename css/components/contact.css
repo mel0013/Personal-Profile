@@ -19,6 +19,10 @@ form {
   background: #06a0a0;
 }
 
+.field {
+  margin: auto;
+}
+
 
 .input-field {
   color: #7d7d7d;

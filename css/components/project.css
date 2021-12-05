@@ -1,6 +1,5 @@
 .projects {
-  padding: 32px 0;
-  margin-top: 2rem;
+  margin-top: auto;
 }
 
 .project-pic {
@@ -12,10 +11,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.projects-title {
-  margin-bottom: 1rem;
 }
 
 .project-container {

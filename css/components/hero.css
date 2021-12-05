@@ -2,7 +2,7 @@
   flex-flow: column;
   max-width: 50rem;
   margin: 5rem auto;
-  font-size: 30px;
+  font-size: 25px;
   max-height: 100vh;
 }
 
@@ -24,11 +24,11 @@
 .hero-img {
   margin-top: 5rem;
   margin-bottom: 2rem;
-  width: 30rem;
+  width: 24rem;
 }
 
 .button-intro {
-  margin-top: 5.5rem;
+  margin-top: 3.5rem;
 }
 
 .button-intro a {
@@ -67,10 +67,10 @@
     font-size: 20px;
   }
   .button-intro {
-    margin-top: 4rem;
+    margin-top: 2.5rem;
   }
   .hero-img {
-    width: 18rem;
+    width: 16rem;
     margin-top: 1rem;
   }
 }

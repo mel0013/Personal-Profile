@@ -25,6 +25,10 @@
   .illustration {
     width: 16rem;
   }
+
+  .illustrations p {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 400px) {

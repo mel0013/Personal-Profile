@@ -1,5 +1,5 @@
 .projects {
-  margin-top: auto;
+  margin: 15px;
 }
 
 .project-pic {
@@ -13,12 +13,8 @@
   justify-content: center;
 }
 
-.project-container {
-  width: 22rem;
-  padding: 1rem;
-}
-
 .project-card {
+  width: 24rem;
   border-radius: 2px;
   padding: 20px;
   margin: 10px;
@@ -42,6 +38,10 @@
 
 /* Media Query */
 @media (max-width: 1440px) {
+  .projects{
+    margin: auto;
+  }
+
   .projects-container {
     display: flex;
     flex: 1;
@@ -56,7 +56,7 @@
 }
 
 @media (max-width: 400px) {
-  .project-container {
+  .project-card {
     width: 16rem;
   }
 }

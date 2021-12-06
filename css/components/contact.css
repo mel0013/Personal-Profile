@@ -1,3 +1,7 @@
+.contact {
+  padding-top: 0.5rem;
+}
+
 form {
   text-align: center;
   margin: 3rem auto;
@@ -13,6 +17,7 @@ form {
   color: white;
   font-size: 20px;
   padding: 0.8rem 2rem;
+  margin-top: 15px;
 }
 
 [type="submit"]:hover {

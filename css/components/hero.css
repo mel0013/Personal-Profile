@@ -2,6 +2,7 @@
   flex-flow: column;
   max-width: 50rem;
   margin: 5rem auto;
+  padding-top: 0.5rem;
   font-size: 25px;
   max-height: 100vh;
 }
